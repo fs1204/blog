@@ -1,0 +1,43 @@
+.container {
+    width: 720px;
+    margin: 40px auto;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin: 10px;
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td {
+    padding: 5px;
+}
+
+.delete,
+#logout,
+#delete-user {
+  display: inline-block;
+  background-color: #ccc;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 1px 3px;
+  border-width: 2px;
+  border-style: outset;
+}
+
+#delete_user {
+    margin-left: 15px;
+}
+
+.nav {
+    display: flex;
+}
