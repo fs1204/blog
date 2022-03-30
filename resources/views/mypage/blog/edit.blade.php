@@ -20,7 +20,7 @@
 画像：<input type="file" name="pict">
 @if($blog->pict)
 <p>
-    <img src="{{ asset('storage/'.$blog->pict) }}" width="400" height="auto">
+    <img src="{{ Storage::url($blog->pict) }}" width="400" height="auto">
 </p>
 @endif
 
