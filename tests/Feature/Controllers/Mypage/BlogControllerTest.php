@@ -71,7 +71,7 @@ class BlogControllerTest extends TestCase
         $this->post('mypage/blogs/create', $validData)
             ->assertRedirect('mypage/blogs/edit/1');
 
-        $this->get('mypage/blogs/edit/1')->assertSee('新規登録しました');
+        $this->get('mypage/blogs/edit/1')->assertSee('ブログを投稿しました。');
 
         $this->assertDatabaseHas('blogs', $validData);
     }
@@ -90,7 +90,7 @@ class BlogControllerTest extends TestCase
 
         $validData['is_open'] = 0;
 
-        $this->get('mypage/blogs/edit/1')->assertSee('新規登録しました');
+        $this->get('mypage/blogs/edit/1')->assertSee('ブログを投稿しました。');
 
         $this->assertDatabaseHas('blogs', $validData);
     }
