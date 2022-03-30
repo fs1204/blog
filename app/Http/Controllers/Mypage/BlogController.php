@@ -29,7 +29,7 @@ class BlogController extends Controller
         $data['is_open'] = $request->boolean('is_open');
 
         if ($request->hasFile('pict')) {
-            $data['pict'] = base64_encode(file_get_contents($request->pict->getRealPath()));
+            $data['pict'] = $request->file('pict')->store('blogs', 'public');
         }
 
         $blog = auth()->user()->blogs()->create($data);

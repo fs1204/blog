@@ -7,7 +7,7 @@
 
 @if($blog->pict)
 <p>
-    <img src="data:image/png;base64,<?= image ?>" width="400" height="auto">
+    <img src="{{ Storage::url($blog->pict) }}" width="400" height="auto">
 </p>
 @endif
 

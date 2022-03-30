@@ -15,7 +15,7 @@
 <br>
 <label>公開する：<input type="checkbox" name="is_open" value="1" {{ old('is_open') ? 'checked' : '' }}></label>
 <br>
-画像：<input type="file" name="image">
+画像：<input type="file" name="pict">
 
 <br><br>
 <input type="submit">
