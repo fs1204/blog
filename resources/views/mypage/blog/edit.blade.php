@@ -20,7 +20,7 @@
 画像：<input type="file" name="pict">
 @if($blog->pict)
 <p>
-    <img src="{{ Storage::url($blog->pict) }}" width="400" height="auto">
+    <img src="data:image/png;base64,<?= image ?>" width="400" height="auto">
 </p>
 @endif
 
