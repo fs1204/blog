@@ -23,7 +23,7 @@
     <img src="{{ Storage::url($blog->pict) }}" width="400" height="auto">
 </p>
 @endif
-<br>
+<br><br>
 <input type="submit" value="更新する">
 
 </form>
