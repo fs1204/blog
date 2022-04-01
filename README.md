@@ -1,4 +1,4 @@
-https://laravelblog11.herokuapp.com/mypage/blogs
+https://laravelblog11.herokuapp.com/
 
 ブログシステムをphp,laravel,mysqlを使って作りました。  JavaScriptでも一部実装してあります。
 
