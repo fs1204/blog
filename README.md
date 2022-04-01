@@ -1,3 +1,5 @@
+https://laravelblog11.herokuapp.com/mypage/blogs
+
 ブログシステムをphp,laravel,mysqlを使って作りました。  JavaScriptでも一部実装してあります。
 
 以下のような機能を実装しました。
