@@ -42,27 +42,4 @@ class UserLoginController extends Controller
     {
         return view('mypage.delete', compact('user'));
     }
-
-    // public function destroy(User $user, UserLoginSaveRequest $request)
-    // {
-    //     if ($request->user()->isNot($user)) {
-    //         abort(403);
-    //     }
-
-    //     $data = $request->validated();
-
-    //     if (!auth()->attempt($data)) {
-    //         throw ValidationException::withMessages(['email' => 'メールアドレスかパスワードが間違っています。']);
-    //     }
-
-    //     try {
-    //         DB::beginTransaction();
-    //         $user->delete();
-    //         DB::commit();
-    //     } catch (Throwable $e) {
-    //         DB::rollBack();
-    //     }
-
-    //     return redirect()->route('login')->with(['message' => 'アカウントを削除しました。']);
-    // }
 }
