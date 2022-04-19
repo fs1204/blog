@@ -1,4 +1,4 @@
-https://laravelblog11.herokuapp.com/
+https://obscure-chamber-44255.herokuapp.com/
 
 ブログシステムをphp,laravel,mysqlを使って作りました。  JavaScriptでも一部実装してあります。
 
