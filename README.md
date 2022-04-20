@@ -1,9 +1,13 @@
 https://obscure-chamber-44255.herokuapp.com/
 
 使用技術
+
 ・PHP 8.0.15
+
 ・Laravel 9.4.1
+
 ・JavaScript
+
 ・HTML/CSS
 
 ブログシステムを作りました。シーディングでダミーデータを入れています。 
